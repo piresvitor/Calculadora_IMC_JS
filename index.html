@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
-    <style rel="Stylesheet" href="assets/style.css"></style>
+    <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -14,13 +14,13 @@
         </section>
 
         <section id="calculator">
-            <form id=" form">
-                <h1 id="title">Calculado - IMC</h1>
+            <form id="form">
+                <h1 id="title">Calculadora - IMC</h1>
                 <div class="input-box">
                     <label for="weight">
                         Peso em KG
                     </label>
-                    <div class="input field">
+                    <div class="input-field">
                         <i class="fa-solid fa-weight-scale"></i>
                         <input type="number" id="weight" requerid>
                         <span>KG</span>
@@ -31,7 +31,7 @@
                     <label for="height">
                         Altura em metros
                     </label>
-                    <div class="input field">
+                    <div class="input-field">
                         <i class="fa-solid fa-ruler"></i>
                         <input type="number" id="height" requerid>
                         <span>M</span>
@@ -42,7 +42,7 @@
                     Calcular
                 </button>
             </form>
-            ><div id="infos">
+            <div id="infos">
                 <div id ="result">
                     <div id="bmi">
                         <span id="value"></span>
@@ -53,11 +53,12 @@
                     </div>
                 </div>
 
-                <div id="more_infos"></div>
+                <div id="more_info">
                     <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">
                         Mais Informações sobre o IMC
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
+                </div>
             </div>
         </section>
     </main>
