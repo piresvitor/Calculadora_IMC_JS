@@ -14,7 +14,6 @@ form.addEventListener('submit', function(event){
     value.classList.add('attention')
     document.getElementById('infos').classList.remove('hidden')
 
-
     if (imc < 18.5){
         descricao = "Cuidado! Você está abaixo do peso! "
     }
@@ -36,7 +35,6 @@ form.addEventListener('submit', function(event){
         descricao = "Cuidado! Você está com obesidade morbida!"
 
     } 
-
     value.textContent = imc.replace('.', ",")
     document.getElementById('description').textContent = descricao
 })
